@@ -8,7 +8,32 @@ A Max/MSP-like node-based audio platform prototype, built with C++ and JUCE thro
 
 ## About
 
-Liu Hao began this experiment in late 2023, directing the requirements, experiments and validation while the code was generated and revised through ongoing conversations with ChatGPT. It explores building an audio system through natural-language dialogue.
+Lithweft began in late 2023 as an experiment initiated and directed by
+Liu Hao, exploring a Max/MSP-like visual programming environment for audio.
+
+It was developed through sustained conversations with ChatGPT. The process
+involved distinct but overlapping contributions.
+
+Liu Hao set the project's direction and supplied its goals, core concepts,
+and design ideas, along with the continuing judgment, evaluation, and
+aesthetic decisions that shaped it. This included work at the framework
+level. For the basic building block of the system (what Max calls an
+object, including objects implemented as externals, and Lithweft calls a
+block or node), Liu Hao proposed ideas such as the inheritance relationships,
+class and data-type design,
+interfaces, and data-type checking. Liu Hao also read and modified the code
+directly, examined how the mechanisms worked, and returned with revisions
+and new requests.
+
+ChatGPT proposed architectural and implementation approaches, generated and
+revised the code, and helped work through problems that arose. Because
+implementing a design requires making concrete structural decisions, this
+also carried some framework- and rule-setting work of its own.
+
+These contributions were intertwined rather than separable, and the block
+framework is cited only as one example of a much larger body of judgment
+and design work on both sides. The project does not attempt to attribute
+every individual design decision or insight to one side.
 
 The prototype includes node creation, UI controls, message and audio connections, and dynamically loaded blocks. Extensions were never completed. This repository preserves the experiment and makes its source available for others to study or fork.
 
@@ -65,6 +90,6 @@ Author-written project code is licensed under **GNU AGPL version 3 (AGPL-3.0-onl
 
 ## Author
 
-**Liu Hao** · [liuhao-art.com](https://liuhao-art.com)
+**Liu Hao** (also written as **Hao Liu** in given-name-first order) · [liuhao-art.com](https://liuhao-art.com)
 
 Independent experiment; not affiliated with or endorsed by Cycling '74, OpenAI or the JUCE authors.
