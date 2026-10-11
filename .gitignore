@@ -1,0 +1,38 @@
+# Local build products and downloaded SDKs
+/build/
+/.deps/
+**/build/
+**/dist/
+DerivedData/
+*.o
+*.a
+*.dylib
+*.so
+*.dll
+*.exe
+*.app/
+*.dSYM/
+*.xcarchive/
+
+# Personal macOS/Xcode/editor state
+.DS_Store
+**/xcuserdata/
+**/xcshareddata/IDEWorkspaceChecks.plist
+*.xcuserstate
+.idea/
+.vscode/
+__pycache__/
+*.pyc
+.env
+.env.*
+
+# Local work utilities and generated source bundles are outside this archive
+/Tools/CodeScanner/
+/Tools/Code Reference/
+/Tools/scan_lithweft.py
+/BlockMaker/backupCode/
+/BlockMaker/description.rtf
+CODE_BUNDLE.txt
+*-code.txt
+
+# Preserve Builds/MacOSX project recipes and JuceLibraryCode include wrappers.

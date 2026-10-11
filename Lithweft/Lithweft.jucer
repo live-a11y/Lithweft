@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="wyV8ra" name="Lithweft" projectType="guiapp" bundleIdentifier="com.liuhao.lithweft" companyName="Liu Hao"
+              useAppConfig="0" addUsingNamespaceToJuceHeader="0" displaySplashScreen="1"
+              jucerFormatVersion="1">
+  <MAINGROUP id="vMvXzP" name="Lithweft">
+    <GROUP id="{1D87C558-BC0D-52CE-195B-EC45B1174552}" name="Source">
+      <FILE id="nkzkbz" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="bPkKqJ" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="BWZQGQ" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="PatchPersistence" name="PatchPersistence.cpp" compile="1" resource="0" file="Source/PatchPersistence.cpp"/>
+      <FILE id="PatchDocument" name="PatchDocument.h" compile="0" resource="0" file="Source/PatchDocument.h"/>
+      <FILE id="HAImmw" name="PatchController.cpp" compile="1" resource="0"
+            file="Source/PatchController.cpp"/>
+      <FILE id="LsmjGW" name="PatchController.h" compile="0" resource="0"
+            file="Source/PatchController.h"/>
+      <FILE id="CDLDEP" name="BlockChain.cpp" compile="1" resource="0" file="Source/BlockChain.cpp"/>
+      <FILE id="fRJglb" name="BlockChain.h" compile="0" resource="0" file="Source/BlockChain.h"/>
+      <FILE id="OryYHH" name="BlockComponent.cpp" compile="1" resource="0"
+            file="Source/BlockComponent.cpp"/>
+      <FILE id="lBtKln" name="BlockComponent.h" compile="0" resource="0"
+            file="Source/BlockComponent.h"/>
+      <FILE id="FZaRnf" name="PortComponent.h" compile="0" resource="0" file="Source/PortComponent.h"/>
+      <FILE id="UFntOm" name="LineComponent.h" compile="0" resource="0" file="Source/LineComponent.h"/>
+      <FILE id="PNqSAn" name="BlockInterface.h" compile="0" resource="0"
+            file="Source/BlockInterface.h"/>
+      <FILE id="DRBsVy" name="ParameterBox.h" compile="0" resource="0" file="Source/ParameterBox.h"/>
+      <FILE id="FAlDWW" name="Slider.h" compile="1" resource="0" file="Source/Slider.h"/>
+      <FILE id="XRKOMD" name="NumberBox.h" compile="1" resource="0" file="Source/NumberBox.h"/>
+      <FILE id="wUxcIg" name="NumberBox.cpp" compile="1" resource="0" file="Source/NumberBox.cpp"/>
+      <FILE id="oDrARV" name="CustomTextEditor.cpp" compile="1" resource="0"
+            file="Source/CustomTextEditor.cpp"/>
+      <FILE id="elXXKC" name="CustomTextEditor.h" compile="0" resource="0"
+            file="Source/CustomTextEditor.h"/>
+      <FILE id="ZNHk8W" name="Scope.h" compile="0" resource="0" file="Source/Scope.h"/>
+      <FILE id="ZehhWy" name="BufferPool.cpp" compile="1" resource="0" file="Source/BufferPool.cpp"/>
+      <FILE id="DAtBq2" name="BufferPool.h" compile="0" resource="0" file="Source/BufferPool.h"/>
+      <FILE id="wZd6k6" name="AudioConfigureComponent.cpp" compile="1" resource="0"
+            file="Source/AudioConfigureComponent.cpp"/>
+      <FILE id="gwUcIY" name="AudioConfigureComponent.h" compile="0" resource="0"
+            file="Source/AudioConfigureComponent.h"/>
+      <FILE id="HtwfDn" name="Timer.h" compile="0" resource="0" file="Source/Timer.h"/>
+      <FILE id="rG6RXY" name="StringToBlockDataConverter.h" compile="0" resource="0"
+            file="Source/StringToBlockDataConverter.h"/>
+      <FILE id="Xc3lXk" name="Trigger.h" compile="0" resource="0" file="Source/Trigger.h"/>
+      <FILE id="M16sID" name="BufferManager_Tilde.h" compile="0" resource="0"
+            file="Source/BufferManager_Tilde.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX" prebuildCommand="/bin/bash &quot;$SRCROOT/../../../Tools/Archive/xcode-blocks.sh&quot; build" postbuildCommand="/bin/bash &quot;$SRCROOT/../../../Tools/Archive/xcode-blocks.sh&quot; bundle">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Lithweft" macOSDeploymentTarget="13.0" codeSigningIdentity="-" customXcodeFlags="JUCE_MODULES_DIR=$(SRCROOT)/../../../.deps/JUCE/modules, HEADER_SEARCH_PATHS=&quot;\&quot;$(SRCROOT)/../../JuceLibraryCode\&quot; \&quot;$(JUCE_MODULES_DIR)\&quot; \&quot;$(inherited)\&quot;&quot;, MTL_HEADER_SEARCH_PATHS=&quot;\&quot;$(SRCROOT)/../../JuceLibraryCode\&quot; \&quot;$(JUCE_MODULES_DIR)\&quot; \&quot;$(inherited)\&quot;&quot;"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Lithweft" macOSDeploymentTarget="13.0" codeSigningIdentity="-" customXcodeFlags="JUCE_MODULES_DIR=$(SRCROOT)/../../../.deps/JUCE/modules, HEADER_SEARCH_PATHS=&quot;\&quot;$(SRCROOT)/../../JuceLibraryCode\&quot; \&quot;$(JUCE_MODULES_DIR)\&quot; \&quot;$(inherited)\&quot;&quot;, MTL_HEADER_SEARCH_PATHS=&quot;\&quot;$(SRCROOT)/../../JuceLibraryCode\&quot; \&quot;$(JUCE_MODULES_DIR)\&quot; \&quot;$(inherited)\&quot;&quot;"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../.deps/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../.deps/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../.deps/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../.deps/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../.deps/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../.deps/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../.deps/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../.deps/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../.deps/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../.deps/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../.deps/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+  </MODULES>
+</JUCERPROJECT>

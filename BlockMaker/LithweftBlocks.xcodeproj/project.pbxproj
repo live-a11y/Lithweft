@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C50BBB622AF6A09D00129971 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C50BBB612AF6A09D00129971 /* main.cpp */; };
+		C50BBB6D2AF6A0C500129971 /* BlockChain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C50BBB6C2AF6A0C500129971 /* BlockChain.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C50BBB5C2AF6A09D00129971 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C50BBB5E2AF6A09D00129971 /* LithweftBlocks */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LithweftBlocks; sourceTree = BUILT_PRODUCTS_DIR; };
+		C50BBB612AF6A09D00129971 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C50BBB682AF6A0AF00129971 /* BlockInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockInterface.h; sourceTree = "<group>"; };
+		C50BBB6B2AF6A0C500129971 /* BlockChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockChain.h; sourceTree = "<group>"; };
+		C50BBB6C2AF6A0C500129971 /* BlockChain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BlockChain.cpp; sourceTree = "<group>"; };
+		C5623E932B77C6BA00CA1FB5 /* Delay.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Delay.cpp; sourceTree = "<group>"; };
+		C5623E962B7918B600CA1FB5 /* Send.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Send.cpp; sourceTree = "<group>"; };
+		C5623E982B7DFDC200CA1FB5 /* Receive.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Receive.cpp; sourceTree = "<group>"; };
+		C5623EAD2B845E8200CA1FB5 /* Buffer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Buffer.cpp; sourceTree = "<group>"; };
+		C5623EAF2B84829400CA1FB5 /* Wave_Tilde.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Wave_Tilde.cpp; sourceTree = "<group>"; };
+		C5B668922B308C9E003B3D0E /* Divide.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Divide.cpp; sourceTree = "<group>"; };
+		C5B668932B308C9E003B3D0E /* Multiple.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Multiple.cpp; sourceTree = "<group>"; };
+		C5B668942B308C9E003B3D0E /* Print.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Print.cpp; sourceTree = "<group>"; };
+		C5B668952B308C9E003B3D0E /* Subtract.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Subtract.cpp; sourceTree = "<group>"; };
+		C5B668962B308C9E003B3D0E /* Dac_tilde.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Dac_tilde.cpp; sourceTree = "<group>"; };
+		C5B668982B308C9E003B3D0E /* Osc_tilde.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Osc_tilde.cpp; sourceTree = "<group>"; };
+		C5B668992B308C9E003B3D0E /* Multiple_tilde.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Multiple_tilde.cpp; sourceTree = "<group>"; };
+		C5D3C2932B3140FA008135DA /* Metro.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Metro.cpp; sourceTree = "<group>"; };
+		C5E4E70E2B3090F4004C6A55 /* Add.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Add.cpp; sourceTree = "<group>"; };
+		C5E4E7102B3092E2004C6A55 /* MyBlock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MyBlock.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C50BBB5B2AF6A09D00129971 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C50BBB552AF6A09D00129971 = {
+			isa = PBXGroup;
+			children = (
+				C50BBB602AF6A09D00129971 /* LithweftBlocks */,
+				C50BBB5F2AF6A09D00129971 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C50BBB5F2AF6A09D00129971 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C50BBB5E2AF6A09D00129971 /* LithweftBlocks */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C50BBB602AF6A09D00129971 /* LithweftBlocks */ = {
+			isa = PBXGroup;
+			children = (
+				C50BBB612AF6A09D00129971 /* main.cpp */,
+				C50BBB6C2AF6A0C500129971 /* BlockChain.cpp */,
+				C50BBB6B2AF6A0C500129971 /* BlockChain.h */,
+				C50BBB682AF6A0AF00129971 /* BlockInterface.h */,
+				C5B668942B308C9E003B3D0E /* Print.cpp */,
+				C5E4E7102B3092E2004C6A55 /* MyBlock.cpp */,
+				C5623E932B77C6BA00CA1FB5 /* Delay.cpp */,
+				C5E4E70E2B3090F4004C6A55 /* Add.cpp */,
+				C5B668952B308C9E003B3D0E /* Subtract.cpp */,
+				C5623E962B7918B600CA1FB5 /* Send.cpp */,
+				C5623E982B7DFDC200CA1FB5 /* Receive.cpp */,
+				C5B668932B308C9E003B3D0E /* Multiple.cpp */,
+				C5B668922B308C9E003B3D0E /* Divide.cpp */,
+				C5B668992B308C9E003B3D0E /* Multiple_tilde.cpp */,
+				C5B668982B308C9E003B3D0E /* Osc_tilde.cpp */,
+				C5B668962B308C9E003B3D0E /* Dac_tilde.cpp */,
+				C5D3C2932B3140FA008135DA /* Metro.cpp */,
+				C5623EAD2B845E8200CA1FB5 /* Buffer.cpp */,
+				C5623EAF2B84829400CA1FB5 /* Wave_Tilde.cpp */,
+			);
+			path = LithweftBlocks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C50BBB5D2AF6A09D00129971 /* LithweftBlocks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C50BBB652AF6A09D00129971 /* Build configuration list for PBXNativeTarget "LithweftBlocks" */;
+			buildPhases = (
+				C0DEC0DE0000000000000001 /* Build Block Libraries */,
+				C50BBB5A2AF6A09D00129971 /* Sources */,
+				C50BBB5B2AF6A09D00129971 /* Frameworks */,
+				C50BBB5C2AF6A09D00129971 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LithweftBlocks;
+			productName = LithweftBlocks;
+			productReference = C50BBB5E2AF6A09D00129971 /* LithweftBlocks */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C50BBB562AF6A09D00129971 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					C50BBB5D2AF6A09D00129971 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = C50BBB592AF6A09D00129971 /* Build configuration list for PBXProject "LithweftBlocks" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C50BBB552AF6A09D00129971;
+			productRefGroup = C50BBB5F2AF6A09D00129971 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C50BBB5D2AF6A09D00129971 /* LithweftBlocks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C0DEC0DE0000000000000001 /* Build Block Libraries */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = ();
+			inputPaths = (
+				"$(SRCROOT)/LithweftBlocks/compile.sh",
+				"$(SRCROOT)/LithweftBlocks/BlockInterface.h",
+				"$(SRCROOT)/LithweftBlocks/MyBlock.cpp",
+				"$(SRCROOT)/LithweftBlocks/Print.cpp",
+				"$(SRCROOT)/LithweftBlocks/Multiple.cpp",
+				"$(SRCROOT)/LithweftBlocks/Add.cpp",
+				"$(SRCROOT)/LithweftBlocks/Divide.cpp",
+				"$(SRCROOT)/LithweftBlocks/Subtract.cpp",
+				"$(SRCROOT)/LithweftBlocks/Osc_tilde.cpp",
+				"$(SRCROOT)/LithweftBlocks/Dac_tilde.cpp",
+				"$(SRCROOT)/LithweftBlocks/Multiple_tilde.cpp",
+				"$(SRCROOT)/LithweftBlocks/Metro.cpp",
+				"$(SRCROOT)/LithweftBlocks/Delay.cpp",
+				"$(SRCROOT)/LithweftBlocks/Send.cpp",
+				"$(SRCROOT)/LithweftBlocks/Receive.cpp",
+				"$(SRCROOT)/LithweftBlocks/Buffer.cpp",
+				"$(SRCROOT)/LithweftBlocks/Wave_Tilde.cpp",
+			);
+			name = "Build Block Libraries";
+			outputPaths = (
+				"$(SRCROOT)/LithweftBlocks/myBlock.dylib",
+				"$(SRCROOT)/LithweftBlocks/myBlock.dylib.dSYM",
+				"$(SRCROOT)/LithweftBlocks/print.dylib",
+				"$(SRCROOT)/LithweftBlocks/print.dylib.dSYM",
+				"$(SRCROOT)/LithweftBlocks/multiple.dylib",
+				"$(SRCROOT)/LithweftBlocks/multiple.dylib.dSYM",
+				"$(SRCROOT)/LithweftBlocks/add.dylib",
+				"$(SRCROOT)/LithweftBlocks/add.dylib.dSYM",
+				"$(SRCROOT)/LithweftBlocks/divide.dylib",
+				"$(SRCROOT)/LithweftBlocks/divide.dylib.dSYM",
+				"$(SRCROOT)/LithweftBlocks/subtract.dylib",
+				"$(SRCROOT)/LithweftBlocks/subtract.dylib.dSYM",
+				"$(SRCROOT)/LithweftBlocks/osc~.dylib",
+				"$(SRCROOT)/LithweftBlocks/osc~.dylib.dSYM",
+				"$(SRCROOT)/LithweftBlocks/dac~.dylib",
+				"$(SRCROOT)/LithweftBlocks/dac~.dylib.dSYM",
+				"$(SRCROOT)/LithweftBlocks/multiple_tilde.dylib",
+				"$(SRCROOT)/LithweftBlocks/multiple_tilde.dylib.dSYM",
+				"$(SRCROOT)/LithweftBlocks/metro.dylib",
+				"$(SRCROOT)/LithweftBlocks/metro.dylib.dSYM",
+				"$(SRCROOT)/LithweftBlocks/delay.dylib",
+				"$(SRCROOT)/LithweftBlocks/delay.dylib.dSYM",
+				"$(SRCROOT)/LithweftBlocks/send.dylib",
+				"$(SRCROOT)/LithweftBlocks/send.dylib.dSYM",
+				"$(SRCROOT)/LithweftBlocks/receive.dylib",
+				"$(SRCROOT)/LithweftBlocks/receive.dylib.dSYM",
+				"$(SRCROOT)/LithweftBlocks/buffer.dylib",
+				"$(SRCROOT)/LithweftBlocks/buffer.dylib.dSYM",
+				"$(SRCROOT)/LithweftBlocks/wave~.dylib",
+				"$(SRCROOT)/LithweftBlocks/wave~.dylib.dSYM",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "/bin/bash \"$SRCROOT/LithweftBlocks/compile.sh\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C50BBB5A2AF6A09D00129971 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C50BBB622AF6A09D00129971 /* main.cpp in Sources */,
+				C50BBB6D2AF6A0C500129971 /* BlockChain.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C50BBB632AF6A09D00129971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C50BBB642AF6A09D00129971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C50BBB662AF6A09D00129971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "-";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C50BBB672AF6A09D00129971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "-";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C50BBB592AF6A09D00129971 /* Build configuration list for PBXProject "LithweftBlocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C50BBB632AF6A09D00129971 /* Debug */,
+				C50BBB642AF6A09D00129971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C50BBB652AF6A09D00129971 /* Build configuration list for PBXNativeTarget "LithweftBlocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C50BBB662AF6A09D00129971 /* Debug */,
+				C50BBB672AF6A09D00129971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C50BBB562AF6A09D00129971 /* Project object */;
+}

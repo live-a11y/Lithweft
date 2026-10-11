@@ -1,0 +1,62 @@
+{
+  "format": "Lithweft Patch",
+  "version": 1,
+  "mode": "performance",
+  "nodes": [
+    {
+      "id": 1,
+      "expression": "number",
+      "resolved": true,
+      "bounds": {
+        "x": 145,
+        "y": 120,
+        "width": 60,
+        "height": 30
+      },
+      "state": {
+        "value": 42.99
+      }
+    },
+    {
+      "id": 2,
+      "expression": "+ 2",
+      "resolved": true,
+      "bounds": {
+        "x": 120,
+        "y": 180,
+        "width": 80,
+        "height": 28
+      },
+      "state": {
+      }
+    },
+    {
+      "id": 3,
+      "expression": "number",
+      "resolved": true,
+      "bounds": {
+        "x": 120,
+        "y": 290,
+        "width": 60,
+        "height": 30
+      },
+      "state": {
+        "value": 44.99
+      }
+    }
+  ],
+  "connections": [
+    {
+      "source": 1,
+      "outlet": 0,
+      "destination": 2,
+      "inlet": 0
+    },
+    {
+      "source": 2,
+      "outlet": 0,
+      "destination": 3,
+      "inlet": 0
+    }
+  ]
+}
