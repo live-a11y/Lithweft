@@ -2,6 +2,8 @@
 
 A Max/MSP-like node-based audio platform prototype, built with C++ and JUCE through conversations with ChatGPT.
 
+![Lithweft visual patching demo](docs/screen-recording/lithweft_demo.gif)
+
 **Status: archival experiment. No maintenance is promised.**
 
 ## About
