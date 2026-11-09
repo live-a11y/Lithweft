@@ -9,19 +9,19 @@ A Max/MSP-like node-based audio platform prototype, built with C++ and JUCE thro
 ## About
 
 Lithweft began in late 2023 as an experiment initiated and directed by
-Liu Hao, exploring a Max/MSP-like visual programming environment for audio.
+Hao Liu, exploring a Max/MSP-like visual programming environment for audio.
 
 It was developed through sustained conversations with ChatGPT. The process
 involved distinct but overlapping contributions.
 
-Liu Hao set the project's direction and supplied its goals, core concepts,
+Hao Liu set the project's direction and supplied its goals, core concepts,
 and design ideas, along with the continuing judgment, evaluation, and
 aesthetic decisions that shaped it. This included work at the framework
 level. For the basic building block of the system (what Max calls an
 object, including objects implemented as externals, and Lithweft calls a
-block or node), Liu Hao proposed ideas such as the inheritance relationships,
+block or node), Hao Liu proposed ideas such as the inheritance relationships,
 class and data-type design,
-interfaces, and data-type checking. Liu Hao also read and modified the code
+interfaces, and data-type checking. Hao Liu also read and modified the code
 directly, examined how the mechanisms worked, and returned with revisions
 and new requests.
 
