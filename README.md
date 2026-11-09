@@ -90,6 +90,6 @@ Author-written project code is licensed under **GNU AGPL version 3 (AGPL-3.0-onl
 
 ## Author
 
-**Liu Hao** (also written as **Hao Liu** in given-name-first order) · [liuhao-art.com](https://liuhao-art.com)
+**Hao Liu** (also written as **Liu Hao **) · [liuhao-art.com](https://liuhao-art.com)
 
 Independent experiment; not affiliated with or endorsed by Cycling '74, OpenAI or the JUCE authors.
