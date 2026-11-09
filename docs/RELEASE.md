@@ -1,6 +1,6 @@
 # v0.1-archive — Lithweft experimental prototype
 
-This source archive preserves Lithweft, a node-based audio platform experiment begun by Liu Hao in late 2023 through conversations with ChatGPT, using C++ and JUCE.
+This source archive preserves Lithweft, a node-based audio platform experiment begun by Hao Liu in late 2023 through conversations with ChatGPT, using C++ and JUCE.
 
 Preparation in October 2026 restored macOS builds, added patch saving/loading, fixed operator-alias loading, removed developer-specific paths, and documented the project under its new name. This is the prepared archive, not an untouched 2023 snapshot.
 
