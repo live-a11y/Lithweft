@@ -15,7 +15,7 @@ The project-specific `JuceLibraryCode` include wrappers and configuration header
 
 ## Project code and AGPL
 
-Copyright (c) 2023–2026 Liu Hao, for author-written project code. That code is available under AGPL-3.0-only as stated in README.md and LICENSE. Original third-party notices remain authoritative for third-party code.
+Copyright (c) 2023–2026 Hao Liu, for author-written project code. That code is available under AGPL-3.0-only as stated in README.md and LICENSE. Original third-party notices remain authoritative for third-party code.
 
 GPLv3 and AGPLv3 section 13 provide permission to link or combine code under those licenses; this does not change the license of JUCE's covered portions. See the [GNU license compatibility explanation](https://www.gnu.org/licenses/license-compatibility.en.html) and [GPLv3 text](https://www.gnu.org/licenses/gpl-3.0.html).
 
